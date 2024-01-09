@@ -80,9 +80,12 @@ public class AirCraf {
 	}
 	
 	AirCraf(){}
-	AirCraf(String setManufacturer,String setModel,double setLength){
+	AirCraf(String setManufacturer,String setModel,double setLength,double setAirSpeed,String setSpaceSpeed,String setStdandardEngine){
 		this.getManufacturer();
 		this.getModel();
 		this.getLength();
+		this.getAirSpeed();
+		this.getSpaceSpeed();
+		this.getStdandardEngine();
 	}
 }
